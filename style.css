@@ -1,0 +1,27 @@
+.container {
+  width: 80vw;
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 12px;
+  padding: 12px;
+  width: 180px;
+  background: #f5f5f5;
+}
+.no-cover {
+  width: 100px;
+  height: 150px;
+  background: #eee;
+  line-height: 150px;
+  color: #888;
+  margin: auto;
+}
